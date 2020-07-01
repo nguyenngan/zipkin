@@ -48,8 +48,8 @@
     <main.basedir>${project.basedir}</main.basedir>
 
     <!-- This allows you to test feature branches with jitpack -->
-    <armeria.groupId>com.linecorp.armeria</armeria.groupId>
-    <armeria.version>0.99.8-SNAPSHOT</armeria.version>
+    <armeria.groupId>com.github.line.armeria</armeria.groupId>
+    <armeria.version>master-SNAPSHOT</armeria.version>
     <!-- This should only be used in tests, and be careful to avoid >= v20 apis -->
     <guava.version>28.1-jre</guava.version>
 
@@ -148,8 +148,8 @@
 
   <repositories>
     <repository>
-      <id>armeria-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
